@@ -1,3 +1,19 @@
+# What is this project?
+
+This project is a forecast app. Pleaes type in a city name in the text box and press "click".
+If you want to run this in local, Please make `src/env/env.js` and write the code below
+
+```js
+const env = {
+    API_KEY: YOUR_OPEN_WEATHERMAP_API_KEY,
+    API_URL: "https://api.openweathermap.org/data/2.5"
+};
+
+export default env;
+```
+
+<!-- start auto generated sentence by Create React App -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
